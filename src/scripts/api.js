@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-const BASE_URL = `https://thinkful-list-api.herokuapp.com/dominic/bookmarks`
+const BASE_URL = `https://thinkful-list-api.herokuapp.com/noah/bookmarks`
 
 const getBookmarks = function(){
     return fetch(`${BASE_URL}`)
