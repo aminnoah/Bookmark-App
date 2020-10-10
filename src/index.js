@@ -1,4 +1,4 @@
-import '../style.css';
+import './style.css';
 import $ from 'jquery';
 import bookmark from './bookmark.js';
 import store from './store';
@@ -6,14 +6,14 @@ import api from './api';
 
 const main = function(){
     
-    api.getBookmarks()
+  api.getBookmarks()
     .then(res => res.json())
     .then((bookmarks) => {
       bookmarks.forEach((bookmark) => store.addBookmark(bookmark));
       bookmark.render();
     });
 
-    bookmark.bindEventHandlers()
+  bookmark.bindEventHandlers();
 
-}
-$(main)
+};
+$(main);
