@@ -46,7 +46,7 @@ li{
 }
 
 .bookmarks{
-    background-color: lightsalmon;
+    background-color: rgb(122, 142, 255);
     border: 1px solid #394648;
     border-radius: 10px;
     align-items: center;
