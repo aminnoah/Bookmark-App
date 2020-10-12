@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Noah Turner bookmark App 
-=======
-# Noah Turner Bookmark App https://aminnoah.github.io/bookmarkApp/
->>>>>>> 27947686be1c9b89aad3ae0479b2ff6e114767f2
+# Noah Turner Bookmark App https://aminnoah.github.io/Bookmark-App/
 
 As a user:
 
